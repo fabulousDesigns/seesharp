@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref", "ref\ref.csproj", "{95DB6FBF-BA8C-4E20-868F-5078A19A67C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handling-null", "handling-null\handling-null.csproj", "{6E19BCC8-4562-45B4-98A2-FDF720D5CFD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{95DB6FBF-BA8C-4E20-868F-5078A19A67C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DB6FBF-BA8C-4E20-868F-5078A19A67C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DB6FBF-BA8C-4E20-868F-5078A19A67C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E19BCC8-4562-45B4-98A2-FDF720D5CFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E19BCC8-4562-45B4-98A2-FDF720D5CFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E19BCC8-4562-45B4-98A2-FDF720D5CFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E19BCC8-4562-45B4-98A2-FDF720D5CFD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
