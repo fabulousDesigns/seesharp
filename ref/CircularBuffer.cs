@@ -4,9 +4,9 @@
 public class CircularBuffer<T>
 {
     private T[] buffer;
-    private int head = 0;  // Points to the next position to write
-    private int tail = 0;  // Points to the oldest element
-    private int count = 0; // Current number of elements
+    private int head = 0;  
+    private int tail = 0; 
+    private int count = 0; 
     
     public CircularBuffer(int size)
     {
@@ -17,7 +17,7 @@ public class CircularBuffer<T>
     public void Add(T item)
     {
         buffer[head] = item;
-        head = (head + 1) % buffer.Length; // Wrap around if needed
+        head = (head + 1) % buffer.Length; 
         
         if (count < buffer.Length)
         {
@@ -25,12 +25,10 @@ public class CircularBuffer<T>
         }
         else
         {
-            // Buffer is full, move tail
             tail = (tail + 1) % buffer.Length;
         }
     }
 
-    // Returns a reference to element at specific index
     public ref T GetAt(int index)
     {
         if (index < 0 || index >= count)
@@ -38,12 +36,10 @@ public class CircularBuffer<T>
             throw new ArgumentOutOfRangeException(nameof(index));
         }
         
-        // Calculate actual position in buffer
         int actualPos = (tail + index) % buffer.Length;
         return ref buffer[actualPos];
     }
 
-    // Try to modify the oldest element
     public bool TryModifyOldest(ref T newValue)
     {
         if (count == 0)
@@ -51,7 +47,6 @@ public class CircularBuffer<T>
             return false;
         }
 
-        // Swap the oldest value with newValue
         T temp = buffer[tail];
         buffer[tail] = newValue;
         newValue = temp;
@@ -59,7 +54,6 @@ public class CircularBuffer<T>
         return true;
     }
 
-    // Helper method to display buffer state
     public void PrintBuffer()
     {
         Console.WriteLine($"Buffer state (Count: {count}):");

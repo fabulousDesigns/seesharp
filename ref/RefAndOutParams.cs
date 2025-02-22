@@ -38,7 +38,7 @@ class RefAndOutParams
         for (int i = 0; i < array.Length; i++)
         {
             double normalizedValue = array[i].ToDouble(null) / maxValue;
-            // Convert back to T (this is a simplification - might need more robust conversion)
+           
             array[i] = (T)Convert.ChangeType(normalizedValue, typeof(T));
         }
 

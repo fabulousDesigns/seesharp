@@ -10,7 +10,7 @@
        // var max =  refObj.GetLargest(ref num1, ref num2);
        // Console.WriteLine($"After: {max}");
        ParameterTester tester = new ParameterTester();
-
+       
        // int num1 = 5;
        // Console.WriteLine($"Before regular: {num1}"); // 5
        // tester.RegularIncrement(num1);
@@ -26,7 +26,7 @@
        // int num3; // Don't need to initialize
        // tester.GetNumber(out num3);
        // Console.WriteLine($"After out: {num3}"); // 42
-
+       
        // int x = 10, y = 5;
        // Console.WriteLine($"Before: x = {x}, y = {y}");
        // var wasGreater = tester.SwapIfGreater(ref x, ref y);
