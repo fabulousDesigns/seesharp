@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "events", "events\events.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{B790A0B9-7DB2-4A66-9DBC-A6D656310302}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{83811E3F-AE2A-4308-B094-E5A1A224B497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string", "string\string.csproj", "{68078458-87EC-4A27-BD4D-D13A68BE1349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{B790A0B9-7DB2-4A66-9DBC-A6D656310302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B790A0B9-7DB2-4A66-9DBC-A6D656310302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B790A0B9-7DB2-4A66-9DBC-A6D656310302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83811E3F-AE2A-4308-B094-E5A1A224B497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83811E3F-AE2A-4308-B094-E5A1A224B497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83811E3F-AE2A-4308-B094-E5A1A224B497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83811E3F-AE2A-4308-B094-E5A1A224B497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68078458-87EC-4A27-BD4D-D13A68BE1349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68078458-87EC-4A27-BD4D-D13A68BE1349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68078458-87EC-4A27-BD4D-D13A68BE1349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68078458-87EC-4A27-BD4D-D13A68BE1349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
